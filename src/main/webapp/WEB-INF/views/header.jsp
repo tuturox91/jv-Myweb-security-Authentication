@@ -7,9 +7,14 @@
     <title>Title</title>
 </head>
 <body>
-<form  class="myHeader" action="${pageContext.request.contextPath}/logout">
-    <input class="headerButton" type="submit" value="Logout" />
-    <p class="headerText">Login: <%=request.getSession().getAttribute("driver_name")%></p>
-</form>
+<div class="myHeader">
+    <form   class="headerButton" action="${pageContext.request.contextPath}/index">
+        <input type="submit" value="Menu" />
+    </form>
+    <form   class="headerButton" action="${pageContext.request.contextPath}/logout">
+        <input type="submit" value="Logout" />
+    </form>
+    <p class="headerText"> Login: <%=request.getSession().getAttribute("driver_name")%></p>
+</div>
 </body>
 </html>
