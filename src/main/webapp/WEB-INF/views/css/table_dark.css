@@ -30,3 +30,35 @@
 .table_dark tr:hover td {
     text-decoration: underline;
 }
+
+.errorMessage {
+    text-align: center;
+    color:red;
+    font-weight:bolder;
+    text-transform: uppercase;
+}
+
+.centerForm {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.myHeader {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    position: center;
+    width: 70%;
+    border-collapse: collapse;
+    background: #FEF4AB;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.headerButton {
+    display:inline-block;
+    margin-right:10px;
+}
+.headerText {
+    display:inline-block;
+}

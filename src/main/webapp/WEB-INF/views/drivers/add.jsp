@@ -36,5 +36,8 @@
         </td>
     </tr>
 </table>
+<form class="centerForm" action="${pageContext.request.contextPath}/login">
+    <input type="submit" value="Sign in" />
+</form>
 </body>
 </html>
