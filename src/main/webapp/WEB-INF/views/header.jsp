@@ -14,7 +14,7 @@
     <form   class="headerButton" action="${pageContext.request.contextPath}/logout">
         <input type="submit" value="Logout" />
     </form>
-    <p class="headerText"> Login: <%=request.getSession().getAttribute("driver_name")%></p>
+    <p class="headerText"> Login: <%=request.getSession().getAttribute("driverName")%></p>
 </div>
 </body>
 </html>
