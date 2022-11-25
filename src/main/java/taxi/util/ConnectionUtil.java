@@ -6,7 +6,9 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class ConnectionUtil {
-    private static final String URL = "jdbc:mysql://bymmeg6yzzy1vumbrrau-mysql.services.clever-cloud.com:3306/bymmeg6yzzy1vumbrrau";
+    private static final String URL
+            = "jdbc:mysql://bymmeg6yzzy1vumbrrau-mysql."
+            + "services.clever-cloud.com:3306/bymmeg6yzzy1vumbrrau";
     private static final String USERNAME = "uewz9tfsau8tcrj1";
     private static final String PASSWORD = "sBqZxoo4vnq8T6lAKKyy";
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
