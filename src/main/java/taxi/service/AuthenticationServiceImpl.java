@@ -11,7 +11,7 @@ import java.util.Optional;
 @Service
 public class AuthenticationServiceImpl implements AuthenticationService {
     @Inject
-    private DriverDao driverDao;
+    private DriverService driverDao;
 
     @Override
     public Driver login(String login, String password) throws AuthenticationException {
